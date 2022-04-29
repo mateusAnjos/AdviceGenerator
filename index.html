@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Advice generator app</title>
+
+</head>
+
+<body>
+
+  <main>
+
+    <h1 id='adviceID'></h1>
+    <article id="adviceText"></article>
+<div class="breakline">
+  <div class="line"></div>
+    <picture>
+      <source media="(768px)" srcset="./images/pattern-divider-desktop.svg">
+      <img src="./images/pattern-divider-mobile.svg" alt="divider">
+    </picture>
+    <div class="line"></div>
+  </div>
+ 
+      <div id="botao">
+        <button id="btn" onclick="fetchAdvice();lockBtn()">
+          <img id="img" src="./images/352439_refresh_icon.svg" alt="">
+        </button>
+      </div>
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/mateusAnjos" target="_blank">Mateus Anjos</a>.
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
